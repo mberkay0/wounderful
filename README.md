@@ -1,5 +1,3 @@
-# wounderful
-This web application is useful and strong software for scratch analysis 
 ![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -8,8 +6,6 @@ This web application is useful and strong software for scratch analysis
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
 
