@@ -99,7 +99,7 @@ Check analysis
 
 And download a labelled images 
 
-<img src="/images/download.png" alt="Download" width="400" height="140"/>
+<img src="/images/download.png" alt="Download" width="441.5" height="130"/>
 
 Check the labelled images
 
