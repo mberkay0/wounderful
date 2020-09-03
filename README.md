@@ -103,7 +103,7 @@ And download a labelled images
 
 Check the labelled images
 
-<img src="/images/exOut.png" alt="Labelled image" style="width:300px;height:400px;"/>
+<img src="/images/exOut.png" alt="Labelled image" style="width:100px;height:200px;"/>
 
 
 
