@@ -27,8 +27,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="/images/exanalyzer.png" alt="App image"/>
 
 A wound healing assay is a laboratory technique used to study cell migration and cell–cell interaction. This is also called a scratch assay. This application does the analysis the scratch assay.
 
@@ -88,20 +87,22 @@ python manage.py runserver
 
 Add a wound healing data-set 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="/images/uploadfiles.png" alt="upload images"/>
 
 Run a script
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="/images/run.png" alt="Run the script"/>
 
 Check analysis 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="/images/analysis.png" alt="Analysis"/>
 
 And download a labelled images 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="/images/download.png" alt="Download"/>
+
+Check the labelled images
+<img src="/images/exOut.png" alt="Labelled image"/>
 
 
 
