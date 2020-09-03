@@ -99,11 +99,11 @@ Check analysis
 
 And download a labelled images 
 
-<img src="/images/download.png" alt="Download"/>
+<img src="/images/download.png" alt="Download" width="400" height="300"/>
 
 Check the labelled images
 
-<img src="/images/exOut.png" alt="Labelled image" width="400" height="300"/>
+<img src="/images/exOut.png" alt="Labelled image" width="600" height="500"/>
 
 
 
