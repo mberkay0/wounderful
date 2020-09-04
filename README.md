@@ -29,7 +29,7 @@
 ## About The Project
 <img src="/images/exanalyzer.png" alt="App image"/>
 
-A wound healing assay is a laboratory technique used to study cell migration and cell–cell interaction. This is also called a scratch assay. This application does the analysis the scratch assay.
+A wound healing assay is a laboratory technique used to study cell migration and cell–cell interaction. This is also called a scratch assay. This application does the analysis scratch assay.
 
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
