@@ -5,10 +5,11 @@ import numpy as np
 from skimage.io import imread, imsave
 from skimage.transform import resize
 
-#ROOT DIR (PATHS)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#MASK_ROOT = os.path.join(BASE_DIR, 'masks')
-LABEL_ROOT = os.path.join(BASE_DIR, 'labels')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+IMAGE_ROOT = os.path.join(MEDIA_ROOT, 'images')
+LABEL_ROOT = os.path.join(MEDIA_ROOT, 'labels')
+MASK_ROOT = os.path.join(MEDIA_ROOT, 'masks')
 
 
 def preprocessing(filepath):
@@ -44,11 +45,12 @@ def measure_width(mask, step=10):
     return mean_width, std_dev
 
 
-def analyze_the_scratch(predictions, frames, rect=True):
+def analyze_the_scratch(predictions, frames, user_id, data_set, rect=True):
     now = datetime.datetime.now()
     woundArea = []
     scratchWidth = []
 
+    #find contours module.
     for pred, frame in zip(predictions, frames):
         name = frame.split("\\")[-1]
         pred = np.squeeze(pred)
@@ -115,11 +117,17 @@ def analyze_the_scratch(predictions, frames, rect=True):
                 boxPts = np.int0(boxPts)
                 cv2.drawContours(img, [boxPts], 0, (0, 0, 255), 3)
 
+        # Add calculated width and area.
         woundArea.append(contourArea)
         scratchWidth.append([swidth, std_dev])
 
+        # Save mask and labelled image
         #cv2.imwrite(MASK_ROOT + '/' + name, mask)
-        fp = LABEL_ROOT + '\\' + name  # .replace("\\", "/")
+        if not os.path.exists(os.path.join(LABEL_ROOT, str(user_id) + '/' + data_set)):
+            os.makedirs(os.path.join(LABEL_ROOT, str(user_id) + '/' + data_set))
+
+        name = 'lb' + name
+        fp = os.path.join(LABEL_ROOT, str(user_id) + '/' + data_set + '/' + name)
         # cv2.imwrite(os.path.join(fp), img)
         imsave(fp, img)
 

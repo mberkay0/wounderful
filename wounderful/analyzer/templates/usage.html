@@ -1,0 +1,61 @@
+
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+</head>
+
+{% block content %}
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the scratch assay tool Wounderful!</h1>
+      <p class="lead">An awesome scratch analysis software!</p>
+      <hr class="my-4">
+      <p>Scroll down to learn how to use the demo..</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'login' %}" role="button">Skip the intro</a>
+      </p>
+    </div>
+
+              <div class="bg-white rounded-xl shadow-sm p-5">
+                <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'images/upload.png'%}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">1. Upload Images</h5>
+                      <p class="card-text">Add a wound healing data-set.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'images/run.png'%}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">2. Analyze</h5>
+                      <p class="card-text">Run a script. Please wait a little bit in this section may take a few minutes..</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'images/analysis.png'%}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">3. Analysis Results</h5>
+                      <p class="card-text">Check analysis results and save a .png file.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'images/download.png'%}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">4. Download Images</h5>
+                      <p class="card-text">Download a labelled images.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+{% endblock %}

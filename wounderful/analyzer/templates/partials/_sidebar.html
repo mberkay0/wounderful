@@ -13,7 +13,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{% url 'home' %}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Analyzer</span></a>
       </li>
@@ -53,7 +53,6 @@
             <a class="collapse-item" href="#">Colors</a>
             <a class="collapse-item" href="#">Borders</a>
             <a class="collapse-item" href="#">Animations</a>
-            <a class="collapse-item" href="#">Other</a>
           </div>
         </div>
       </li>
@@ -75,26 +74,27 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Images</h6>
-            <a class="collapse-item" href="#">Upload images</a>
-            <a class="collapse-item" href="#">Show images</a>
+            <a class="collapse-item" href="{% url 'images' %}">Upload data-set</a>
+            <a class="collapse-item" href="{% url 'dataset' %}">Show data-set</a>
+            <a class="collapse-item" href="{% url 'labels' %}">Labels</a>
             <div class="collapse-divider"></div>
             <h6 class="collapse-header">Videos</h6>
             <a class="collapse-item" href="#">Upload video</a>
-            <a class="collapse-item" href="#">Show videos</a>
+            <a class="collapse-item" href="#">Show video/s</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-table"></i>
           <span>Tables</span></a>
       </li>

@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <div>
+    <h1 class="h3 mb-0 text-gray-800">Upload Images</h1>
     <p class="alert alert-success">Please upload images respectively.</p>
     <form method="post" action="../upload/" enctype="multipart/form-data"> {% csrf_token %}
         <input type="file" name="files" multiple/>

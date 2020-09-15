@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crispy_forms',
     'django_plotly_dash.apps.DjangoPlotlyDashConfig',
+    'authentication',
     'analyzer',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -116,8 +117,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-CRISPY_TEMPLATE_PACK = 'bootstap4'
-
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
@@ -139,9 +138,15 @@ PLOTLY_COMPONENTS = [
 STATIC_URL = '/static/'
 STATICFILES_LOCATION = 'static'
 STATIC_ROOT = 'static'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'analyzer/static')
-]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'analyzer/static'),
+    os.path.join(BASE_DIR, 'media'),
+]
+
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
