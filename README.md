@@ -18,6 +18,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+  * [Video of Project](#video-of-project)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -34,6 +35,10 @@ A wound healing assay is a laboratory technique used to study cell migration and
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
 * [Django](https://www.djangoproject.com/)
+* [Plotly](https://plotly.com/)
+
+
+### Video of Project
 
 
 
