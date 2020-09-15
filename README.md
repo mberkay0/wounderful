@@ -40,6 +40,7 @@ A wound healing assay is a laboratory technique used to study cell migration and
 
 
 ### Video of Project
+<img src="/images/analyze.gif"/>
 ![analyzer](https://github.com/mberkay0/wounderful/blob/master/images/analyze.gif)
 
 ![graphics](https://github.com/mberkay0/wounderful/blob/master/images/graphics.gif)
