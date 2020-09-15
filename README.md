@@ -117,10 +117,10 @@ Check the labelled images
 
 ## References
 
-*[In vitro Wound Healing Assay](https://www.degruyter.com/view/journals/biomat/17/1-2/article-p79.xml)
-*[Wikipedia-Wound Healing Assay](https://en.wikipedia.org/wiki/Wound_healing_assay)
-*[U-Net](https://arxiv.org/pdf/1505.04597.pdf)
-*[Label-free](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2880-8)
+* [In vitro Wound Healing Assay] (https://www.degruyter.com/view/journals/biomat/17/1-2/article-p79.xml)
+* [Wikipedia-Wound Healing Assay] (https://en.wikipedia.org/wiki/Wound_healing_assay)
+* [U-Net] (https://arxiv.org/pdf/1505.04597.pdf)
+* [Label-free] (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2880-8)
 
 
 
