@@ -22,6 +22,7 @@
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Changelog](#changelog)
 
 
 
@@ -41,7 +42,7 @@ A wound healing assay is a laboratory technique used to study cell migration and
 ### Video of Project
 ![analyzer](https://github.com/mberkay0/wounderful/blob/master/images/analyze.gif)
 
-![graphics](https://github.com/mberkay0/wounderful/blob/master/images/graphics.gif)
+
 
 
 
@@ -113,4 +114,9 @@ Check the labelled images
 
 
 
+## Changelog:
 
+### [15.09.2020]:
+* Multiple dataset usage feature added and multiple analysis options added at the same time.
+* Added a authentication system. 
+* The display feature of labelled frames in the program has been added.
