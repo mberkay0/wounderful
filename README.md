@@ -123,17 +123,16 @@ Check the labelled images
 * [Label-free](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2880-8)
 
 ## Citations
-```bibtex
 
+```bibtex
 @INPROCEEDINGS{9299213,
-  author={Mayalı, Berkay and Şaylığ, Orkun and Özuysal, Özden Y. and Okvur, Devrim P. and Töreyin, Behçet Ugur and Ünay, Devrim},
-  booktitle={2020 Medical Technologies Congress (TIPTEKNO)}, 
-  title={Automated Analysis of Wound Healing Microscopy Image Series - A Preliminary Study}, 
-  year={2020},
-  volume={},
-  number={},
-  pages={1-4},
-  doi={10.1109/TIPTEKNO50054.2020.9299213}}
+    author={Mayalı, Berkay and Şaylığ, Orkun and Özuysal, Özden Y. and Okvur, Devrim P. and Töreyin, Behçet Ugur and Ünay, Devrim},
+    booktitle={2020 Medical Technologies Congress (TIPTEKNO)}, 
+    title={Automated Analysis of Wound Healing Microscopy Image Series - A Preliminary Study}, 
+    year={2020},
+    pages={1-4},
+    doi={10.1109/TIPTEKNO50054.2020.9299213}
+  }
 ```
 
 ## Changelog:
